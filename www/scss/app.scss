@@ -5,7 +5,7 @@
 }
 
 .header {
-	
+	z-index: 9999;
 	.nav {
 		height: 60px;
 		
@@ -15,49 +15,22 @@
 	}
 }
  
-/*  .navbar-nav {
+.header-menu {
     position: relative;
     float: right;
-    margin-right: 200px;
-    display: inline-table;
-}
-.nav-item {
-	float: left;
-    transition: all .2s ease-in-out;
-	&:hover {
-	  background-color: rgb( 255, 255, 255 );
-	  opacity: 0.451;
-	}
-	
-}
-.nav-link {
-	display: block;
-	color: #d9c9df !important;
-	font-size: 16px;
-	line-height: 25px;
-	font-family: $casper-bold;
-	text-decoration: underline;
-	margin-right: 135px;
-	padding: 30px 20px;
-}  
- */
-nav ul{
-    position: relative;
-    float: right;
- 	margin-right: 240px;
-    display: inline-table;
-    li {
+ 	margin-right: 220px;
+    
+    .nav-item {
 	    float: left;
 	    height: 60px;
-	    margin-right: 80px;
+	    margin-right: 120px;
 	    margin-top: -5px;
 	    transition: all .2s ease-in-out;
 	    &:hover {
 	    	background: rgba(255, 255, 255, .15);
 	    }
-	    a {
+	    .nav-link {
 		    display: block; 
-	        padding: 50px 20px;
 	        color: #d9c9df !important;
 	        font-size: 16px;
 	        letter-spacing: 1px;
@@ -69,4 +42,71 @@ nav ul{
     
   }
 
-      
+
+.header-logo {
+  width: 277px;
+  height: 131px;
+  margin-left: -100px;
+}
+
+
+.location {
+	position: relative;
+	&-logo {
+	  position: absolute;
+	  top: 40px;
+	  width: 40px;
+	  height: 29px;
+	}
+	&-place {
+		
+	}
+	&-info {
+	
+	}
+}
+
+.phone-block {
+	font-family: $open-bold;
+	margin-top: 10px;
+	.main-phone {
+		color: #662d91;
+		font-size: 26px;
+		text-align: center;
+	}
+	.secondary-phone {
+		float: left;
+		color: #9782a7;
+		font-size: 18px;
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+	.social-phone {
+		float: left;
+		width: 23px;
+		margin-right: 12px;
+		margin-top: 10px;
+	}
+	.viber {
+		margin-top: 11px;
+	}
+}
+
+ .frame-btn {
+	border: 2px solid rgb( 235, 1, 144 );
+	background-color: rgba( 255, 255, 255, 0 );
+	border-radius: 25px;
+	width: 233px;
+	height: 53px;
+	font-size: 14px;
+	font-family: $casper-bold;
+	color: rgb( 234, 0, 143 );
+	text-transform: uppercase;
+	margin-top: 20px;
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		font-size: 16px;
+	}
+ }

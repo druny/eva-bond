@@ -1,0 +1,35 @@
+{
+  "name": "evabond",
+  "version": "1.0.0",
+  "description": "Freelance Project",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-reload": "^1.1.0",
+    "browser-sync": "^2.16.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9",
+    "js-concat": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druny/eva-bond.git"
+  },
+  "author": "Andrey Danylenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/druny/eva-bond/issues"
+  },
+  "homepage": "https://github.com/druny/eva-bond#readme"
+}
